@@ -1,0 +1,723 @@
+{
+    "PrimeReact Button": {
+    "prefix": "primereact-button",
+    "body": [
+        "<Button label=\"$1\" icon=\"${2|pi pi-check, pi pi-times, pi pi-user, pi pi-home, pi pi-search, pi pi-plus, pi pi-minus, pi pi-envelope, pi pi-bell, pi pi-calendar, pi pi-cog, pi pi-heart, pi pi-star, pi pi-tag, pi pi-camera, pi pi-phone, pi pi-map, pi pi-globe, pi pi-lock, pi pi-unlock, pi pi-download, pi pi-upload, pi pi-trash, pi pi-file, pi pi-folder, pi pi-comment, pi pi-lightbulb, pi pi-shopping-cart, pi pi-key, pi pi-wifi, pi pi-link, pi pi-spinner, pi pi-bars, pi pi-ellipsis-v, pi pi-ellipsis-h, pi pi-angle-up, pi pi-angle-down, pi pi-angle-left, pi pi-angle-right, pi pi-chevron-up, pi pi-chevron-down, pi pi-chevron-left, pi pi-chevron-right, pi pi-arrow-up, pi pi-arrow-down, pi pi-arrow-left, pi pi-arrow-right, pi pi-step-backward, pi pi-step-forward, pi pi-fast-backward, pi pi-fast-forward, pi pi-forward, pi pi-backward, pi pi-eject, pi pi-play, pi pi-pause, pi pi-stop, pi pi-volume-up, pi pi-volume-down, pi pi-volume-off, pi pi-microphone, pi pi-microphone-slash, pi pi-th-large, pi pi-th, pi pi-th-list, pi pi-image, pi pi-video, pi pi-music, pi pi-headphones, pi pi-laptop, pi pi-desktop, pi pi-tablet, pi pi-mobile, pi pi-server, pi pi-cloud, pi pi-inbox, pi pi-paperclip, pi pi-book, pi pi-newspaper, pi pi-pencil, pi pi-edit, pi pi-copy, pi pi-cut, pi pi-paste, pi pi-save, pi pi-print, pi pi-eye, pi pi-eye-slash, pi pi-ban, pi pi-exclamation-triangle, pi pi-exclamation-circle, pi pi-info-circle, pi pi-question-circle, pi pi-check-circle, pi pi-times-circle, pi pi-plus-circle, pi pi-minus-circle, pi pi-arrow-circle-up, pi pi-arrow-circle-down, pi pi-arrow-circle-left, pi pi-arrow-circle-right, pi pi-angle-double-up, pi pi-angle-double-down, pi pi-angle-double-left, pi pi-angle-double-right, pi pi-circle, pi pi-square, pi pi-calendar-plus, pi pi-calendar-minus, pi pi-calendar-times, pi pi-calendar-check, pi pi-clock, pi pi-hourglass, pi pi-bolt, pi pi-fire, pi pi-leaf, pi pi-flag, pi pi-glass, pi pi-trophy, pi pi-gift, pi pi-bookmark, pi pi-cart-plus, pi pi-ellipsis-v-alt, pi pi-ellipsis-h-alt, pi pi-hand-point-up, pi pi-hand-point-down, pi pi-user-plus, pi pi-user-minus, pi pi-user-edit, pi pi-user-check, pi pi-user-times, pi pi-comment-alt, pi pi-exclamation-triangle-alt, pi pi-folder-open|}\" onClick={$3} />"
+    ],
+    "description": "Cria um componente Button do PrimeReact"
+}
+,
+    "PrimeReact InputText": {
+        "prefix": "primereact-inputtext",
+        "body": [
+            "<InputText value={$1} onChange={$2} />"
+        ],
+        "description": "Cria um componente InputText do PrimeReact"
+    },
+    "PrimeReact InputTextarea": {
+        "prefix": "primereact-inputtextarea",
+        "body": [
+            "<InputTextarea value={$1} onChange={$2} rows={$3} cols={$4} />"
+        ],
+        "description": "Cria um componente InputTextarea do PrimeReact"
+    },
+    "PrimeReact AutoComplete": {
+        "prefix": "primereact-autocomplete",
+        "body": [
+            "<AutoComplete value={$1} suggestions={$2} completeMethod={$3} />"
+        ],
+        "description": "Cria um componente AutoComplete do PrimeReact"
+    },
+    "PrimeReact Calendar": {
+        "prefix": "primereact-calendar",
+        "body": [
+            "<Calendar value={$1} onChange={$2} />"
+        ],
+        "description": "Cria um componente Calendar do PrimeReact"
+    },
+    "PrimeReact Chips": {
+        "prefix": "primereact-chips",
+        "body": [
+            "<Chips value={$1} onChange={$2} />"
+        ],
+        "description": "Cria um componente Chips do PrimeReact"
+    },
+    "PrimeReact Dropdown": {
+        "prefix": "primereact-dropdown",
+        "body": [
+            "<Dropdown value={$1} options={$2} onChange={$3} placeholder=\"$4\" />"
+        ],
+        "description": "Cria um componente Dropdown do PrimeReact"
+    },
+    "PrimeReact MultiSelect": {
+        "prefix": "primereact-multiselect",
+        "body": [
+            "<MultiSelect value={$1} options={$2} onChange={$3} placeholder=\"$4\" />"
+        ],
+        "description": "Cria um componente MultiSelect do PrimeReact"
+    },
+    "PrimeReact InputSwitch": {
+        "prefix": "primereact-inputswitch",
+        "body": [
+            "<InputSwitch checked={$1} onChange={$2} />"
+        ],
+        "description": "Cria um componente InputSwitch do PrimeReact"
+    },
+    "PrimeReact InputNumber": {
+        "prefix": "primereact-inputnumber",
+        "body": [
+            "<InputNumber value={$1} onValueChange={$2} mode=\"$3\" currency=\"$4\" />"
+        ],
+        "description": "Cria um componente InputNumber do PrimeReact"
+    },
+    "PrimeReact Slider": {
+        "prefix": "primereact-slider",
+        "body": [
+            "<Slider value={$1} onChange={$2} />"
+        ],
+        "description": "Cria um componente Slider do PrimeReact"
+    },
+    "PrimeReact Rating": {
+        "prefix": "primereact-rating",
+        "body": [
+            "<Rating value={$1} onChange={$2} stars={$3} cancel={$4} />"
+        ],
+        "description": "Cria um componente Rating do PrimeReact"
+    },
+    "PrimeReact ColorPicker": {
+        "prefix": "primereact-colorpicker",
+        "body": [
+            "<ColorPicker value={$1} onChange={$2} format=\"$3\" />"
+        ],
+        "description": "Cria um componente ColorPicker do PrimeReact"
+    },
+    "PrimeReact Knob": {
+        "prefix": "primereact-knob",
+        "body": [
+            "<Knob value={$1} onChange={$2} />"
+        ],
+        "description": "Cria um componente Knob do PrimeReact"
+    },
+    "PrimeReact ToggleButton": {
+        "prefix": "primereact-togglebutton",
+        "body": [
+            "<ToggleButton checked={$1} onChange={$2} onLabel=\"$3\" offLabel=\"$4\" />"
+        ],
+        "description": "Cria um componente ToggleButton do PrimeReact"
+    },
+    "PrimeReact Password": {
+        "prefix": "primereact-password",
+        "body": [
+            "<Password value={$1} onChange={$2} feedback={$3} />"
+        ],
+        "description": "Cria um componente Password do PrimeReact"
+    },
+    "PrimeReact DataTable": {
+        "prefix": "primereact-datatable",
+        "body": [
+            "<DataTable value={$1} paginator rows={$2}>",
+            "  <Column field=\"$3\" header=\"$4\"/>",
+            "  <Column field=\"$5\" header=\"$6\"/>",
+            "</DataTable>"
+        ],
+        "description": "Cria um componente DataTable do PrimeReact"
+    },
+    "PrimeReact OrderList": {
+        "prefix": "primereact-orderlist",
+        "body": [
+            "<OrderList value={$1} header=\"$2\" dragdrop>{$3}</OrderList>"
+        ],
+        "description": "Cria um componente OrderList do PrimeReact"
+    },
+    "PrimeReact PickList": {
+        "prefix": "primereact-picklist",
+        "body": [
+            "<PickList source={$1} target={$2} itemTemplate={$3} sourceHeader=\"$4\" targetHeader=\"$5\" />"
+        ],
+        "description": "Cria um componente PickList do PrimeReact"
+    },
+    "PrimeReact Carousel": {
+        "prefix": "primereact-carousel",
+        "body": [
+            "<Carousel value={$1} numVisible={$2} numScroll={$3} circular={$4} />"
+        ],
+        "description": "Cria um componente Carousel do PrimeReact"
+    },
+    "PrimeReact Galleria": {
+        "prefix": "primereact-galleria",
+        "body": [
+            "<Galleria value={$1} numVisible={$2} circular={$3} showItemNavigators={$4} />"
+        ],
+        "description": "Cria um componente Galleria do PrimeReact"
+    },
+    "PrimeReact Tree": {
+        "prefix": "primereact-tree",
+        "body": [
+            "<Tree value={$1} selectionMode=\"$2\" selectionKeys={$3} />"
+        ],
+        "description": "Cria um componente Tree do PrimeReact"
+    },
+    "PrimeReact TreeSelect": {
+        "prefix": "primereact-treeselect",
+        "body": [
+            "<TreeSelect value={$1} options={$2} onChange={$3} placeholder=\"$4\" />"
+        ],
+        "description": "Cria um componente TreeSelect do PrimeReact"
+    },
+    "PrimeReact Dock": {
+        "prefix": "primereact-dock",
+        "body": [
+            "<Dock model={$1} />"
+        ],
+        "description": "Cria um componente Dock do PrimeReact"
+    },
+    "PrimeReact SplitButton": {
+        "prefix": "primereact-splitbutton",
+        "body": [
+            "<SplitButton label=\"$1\" icon=\"$2\" model={$3} />"
+        ],
+        "description": "Cria um componente SplitButton do PrimeReact"
+    },
+    "PrimeReact Breadcrumb": {
+        "prefix": "primereact-breadcrumb",
+        "body": [
+            "<Breadcrumb model={$1} home={$2} />"
+        ],
+        "description": "Cria um componente Breadcrumb do PrimeReact"
+    },
+    "PrimeReact MegaMenu": {
+        "prefix": "primereact-megamenu",
+        "body": [
+            "<MegaMenu model={$1} orientation=\"$2\" />"
+        ],
+        "description": "Cria um componente MegaMenu do PrimeReact"
+    },
+    "PrimeReact TabMenu": {
+        "prefix": "primereact-tabmenu",
+        "body": [
+            "<TabMenu model={$1} activeIndex={$2} />"
+        ],
+        "description": "Cria um componente TabMenu do PrimeReact"
+    },
+    "PrimeReact PanelMenu": {
+        "prefix": "primereact-panelmenu",
+        "body": [
+            "<PanelMenu model={$1} style={{ width: '$2' }} />"
+        ],
+        "description": "Cria um componente PanelMenu do PrimeReact"
+    },
+    "PrimeReact SlideMenu": {
+        "prefix": "primereact-slidemenu",
+        "body": [
+            "<SlideMenu model={$1} viewportHeight={$2} />"
+        ],
+        "description": "Cria um componente SlideMenu do PrimeReact"
+    },
+    "PrimeReact Steps": {
+        "prefix": "primereact-steps",
+        "body": [
+            "<Steps model={$1} activeIndex={$2} />"
+        ],
+        "description": "Cria um componente Steps do PrimeReact"
+    },
+    "PrimeReact TieredMenu": {
+        "prefix": "primereact-tieredmenu",
+        "body": [
+            "<TieredMenu model={$1} popup={$2} />"
+        ],
+        "description": "Cria um componente TieredMenu do PrimeReact"
+    },
+    "PrimeReact ContextMenu": {
+        "prefix": "primereact-contextmenu",
+        "body": [
+            "<ContextMenu model={$1} global={$2} />"
+        ],
+        "description": "Cria um componente ContextMenu do PrimeReact"
+    },
+    "PrimeReact Panel": {
+        "prefix": "primereact-panel",
+        "body": [
+            "<Panel header=\"$1\">$2</Panel>"
+        ],
+        "description": "Cria um componente Panel do PrimeReact"
+    },
+    "PrimeReact Fieldset": {
+        "prefix": "primereact-fieldset",
+        "body": [
+            "<Fieldset legend=\"$1\" toggleable={$2}>$3</Fieldset>"
+        ],
+        "description": "Cria um componente Fieldset do PrimeReact"
+    },
+    "PrimeReact Accordion": {
+        "prefix": "primereact-accordion",
+        "body": [
+            "<Accordion activeIndex={$1}>",
+            "  <AccordionTab header=\"$2\">$3</AccordionTab>",
+            "  <AccordionTab header=\"$4\">$5</AccordionTab>",
+            "</Accordion>"
+        ],
+        "description": "Cria um componente Accordion do PrimeReact"
+    },
+    "PrimeReact TabView": {
+        "prefix": "primereact-tabview",
+        "body": [
+            "<TabView>",
+            "  <TabPanel header=\"$1\">$2</TabPanel>",
+            "  <TabPanel header=\"$3\">$4</TabPanel>",
+            "</TabView>"
+        ],
+        "description": "Cria um componente TabView do PrimeReact"
+    },
+    "PrimeReact Card": {
+        "prefix": "primereact-card",
+        "body": [
+            "<Card title=\"$1\" subTitle=\"$2\">$3</Card>"
+        ],
+        "description": "Cria um componente Card do PrimeReact"
+    },
+    "PrimeReact Toolbar": {
+        "prefix": "primereact-toolbar",
+        "body": [
+            "<Toolbar left={$1} right={$2} />"
+        ],
+        "description": "Cria um componente Toolbar do PrimeReact"
+    },
+    "PrimeReact ScrollPanel": {
+        "prefix": "primereact-scrollpanel",
+        "body": [
+            "<ScrollPanel style={{ width: '$1', height: '$2' }}>$3</ScrollPanel>"
+        ],
+        "description": "Cria um componente ScrollPanel do PrimeReact"
+    },
+    "PrimeReact Splitter": {
+        "prefix": "primereact-splitter",
+        "body": [
+            "<Splitter>",
+            "  <SplitterPanel size={$1}>$2</SplitterPanel>",
+            "  <SplitterPanel size={$3}>$4</SplitterPanel>",
+            "</Splitter>"
+        ],
+        "description": "Cria um componente Splitter do PrimeReact"
+    },
+    "PrimeReact Divider": {
+        "prefix": "primereact-divider",
+        "body": [
+            "<Divider type=\"$1\" align=\"$2\" />"
+        ],
+        "description": "Cria um componente Divider do PrimeReact"
+    },
+    "PrimeReact GMap": {
+        "prefix": "primereact-gmap",
+        "body": [
+            "<GMap options={$1} overlays={$2} style={{ width: '$3', height: '$4' }} />"
+        ],
+        "description": "Cria um componente GMap do PrimeReact"
+    },
+    "PrimeReact OrganizationChart": {
+        "prefix": "primereact-organizationchart",
+        "body": [
+            "<OrganizationChart value={$1} style={{ width: '$2' }} />"
+        ],
+        "description": "Cria um componente OrganizationChart do PrimeReact"
+    },
+    "PrimeReact FullCalendar": {
+        "prefix": "primereact-fullcalendar",
+        "body": [
+            "<FullCalendar events={$1} options={$2} />"
+        ],
+        "description": "Cria um componente FullCalendar do PrimeReact"
+    },
+    "PrimeReact TreeTable": {
+        "prefix": "primereact-treetable",
+        "body": [
+            "<TreeTable value={$1} header=\"$2\">",
+            "  <Column field=\"$3\" header=\"$4\"></Column>",
+            "  <Column field=\"$5\" header=\"$6\"></Column>",
+            "</TreeTable>"
+        ],
+        "description": "Cria um componente TreeTable do PrimeReact com duas colunas"
+    },
+    "PrimeReact Chart": {
+        "prefix": "primereact-chart",
+        "body": [
+            "<Chart type=\"$1\" data={$2} options={$3} />"
+        ],
+        "description": "Cria um componente Chart do PrimeReact"
+    },
+    "PrimeReact Timeline": {
+        "prefix": "primereact-timeline",
+        "body": [
+            "<Timeline value={$1} align=\"$2\" layout=\"$3\" />"
+        ],
+        "description": "Cria um componente Timeline do PrimeReact"
+    },
+    "PrimeReact Avatar": {
+        "prefix": "primereact-avatar",
+        "body": [
+            "<Avatar label=\"$1\" icon=\"$2\" shape=\"$3\" />"
+        ],
+        "description": "Cria um componente Avatar do PrimeReact"
+    },
+    "PrimeReact AvatarGroup": {
+        "prefix": "primereact-avatargroup",
+        "body": [
+            "<AvatarGroup>",
+            "  <Avatar label=\"$1\" icon=\"$2\" />",
+            "</AvatarGroup>"
+        ],
+        "description": "Cria um componente AvatarGroup do PrimeReact"
+    },
+    "PrimeReact Badge": {
+        "prefix": "primereact-badge",
+        "body": [
+            "<Badge value=\"$1\" severity=\"$2\" />"
+        ],
+        "description": "Cria um componente Badge do PrimeReact"
+    },
+    "PrimeReact Tag": {
+        "prefix": "primereact-tag",
+        "body": [
+            "<Tag value=\"$1\" icon=\"$2\" severity=\"$3\" />"
+        ],
+        "description": "Cria um componente Tag do PrimeReact"
+    },
+    "PrimeReact Toast": {
+        "prefix": "primereact-toast",
+        "body": [
+            "<Toast ref={$1} />"
+        ],
+        "description": "Cria um componente Toast do PrimeReact"
+    },
+    "PrimeReact Dialog": {
+        "prefix": "primereact-dialog",
+        "body": [
+            "<Dialog header=\"$1\" visible={$2} onHide={$3}>$4</Dialog>"
+        ],
+        "description": "Cria um componente Dialog do PrimeReact"
+    },
+    "PrimeReact ConfirmDialog": {
+        "prefix": "primereact-confirmdialog",
+        "body": [
+            "<ConfirmDialog visible={$1} onHide={$2} message=\"$3\" header=\"$4\" icon=\"$5\" accept={$6} reject={$7} />"
+        ],
+        "description": "Cria um componente ConfirmDialog do PrimeReact"
+    },
+    "PrimeReact Sidebar": {
+        "prefix": "primereact-sidebar",
+        "body": [
+            "<Sidebar visible={$1} onHide={$2}>$3</Sidebar>"
+        ],
+        "description": "Cria um componente Sidebar do PrimeReact"
+    },
+    "PrimeReact Tooltip": {
+        "prefix": "primereact-tooltip",
+        "body": [
+            "<Tooltip target=\"$1\" content=\"$2\" />"
+        ],
+        "description": "Cria um componente Tooltip do PrimeReact"
+    },
+    "PrimeReact OverlayPanel": {
+        "prefix": "primereact-overlaypanel",
+        "body": [
+            "<OverlayPanel ref={$1} id=\"$2\">$3</OverlayPanel>"
+        ],
+        "description": "Cria um componente OverlayPanel do PrimeReact"
+    },
+    "PrimeReact Lightbox": {
+        "prefix": "primereact-lightbox",
+        "body": [
+            "<Lightbox images={$1} />"
+        ],
+        "description": "Cria um componente Lightbox do PrimeReact"
+    },
+    "PrimeReact Inplace": {
+        "prefix": "primereact-inplace",
+        "body": [
+            "<Inplace closable={$1}>",
+            "  <InplaceDisplay>$2</InplaceDisplay>",
+            "  <InplaceContent>$3</InplaceContent>",
+            "</Inplace>"
+        ],
+        "description": "Cria um componente Inplace do PrimeReact"
+    },
+    "PrimeReact BlockUI": {
+        "prefix": "primereact-blockui",
+        "body": [
+            "<BlockUI blocked={$1} fullScreen={$2}>$3</BlockUI>"
+        ],
+        "description": "Cria um componente BlockUI do PrimeReact"
+    },
+    "PrimeReact ProgressBar": {
+        "prefix": "primereact-progressbar",
+        "body": [
+            "<ProgressBar value={$1} />"
+        ],
+        "description": "Cria um componente ProgressBar do PrimeReact"
+    },
+    "PrimeReact Skeleton": {
+        "prefix": "primereact-skeleton",
+        "body": [
+            "<Skeleton shape=\"$1\" width=\"$2\" height=\"$3\" />"
+        ],
+        "description": "Cria um componente Skeleton do PrimeReact"
+    },
+    "PrimeReact Captcha": {
+        "prefix": "primereact-captcha",
+        "body": [
+            "<Captcha siteKey=\"$1\" onResponse={$2} />"
+        ],
+        "description": "Cria um componente Captcha do PrimeReact"
+    },
+    "PrimeReact Defer": {
+        "prefix": "primereact-defer",
+        "body": [
+            "<Defer onLoad={$1}>$2</Defer>"
+        ],
+        "description": "Cria um componente Defer do PrimeReact"
+    },
+    "PrimeReact Terminal": {
+        "prefix": "primereact-terminal",
+        "body": [
+            "<Terminal welcomeMessage=\"$1\" prompt=\"$2\" />"
+        ],
+        "description": "Cria um componente Terminal do PrimeReact"
+    },
+    "PrimeReact Messages": {
+        "prefix": "primereact-messages",
+        "body": [
+            "<Messages ref={$1} />"
+        ],
+        "description": "Cria um componente Messages do PrimeReact"
+    },
+    "PrimeReact Message": {
+        "prefix": "primereact-message",
+        "body": [
+            "<Message severity=\"$1\" text=\"$2\" />"
+        ],
+        "description": "Cria um componente Message do PrimeReact"
+    },
+    "PrimeReact ScrollTop": {
+        "prefix": "primereact-scrolltop",
+        "body": [
+            "<ScrollTop threshold={$1} />"
+        ],
+        "description": "Cria um componente ScrollTop do PrimeReact"
+    },
+    "PrimeReact VirtualScroller": {
+        "prefix": "primereact-virtualscroller",
+        "body": [
+            "<VirtualScroller items={$1} itemSize={$2} />"
+        ],
+        "description": "Cria um componente VirtualScroller do PrimeReact"
+    },
+    "PrimeReact Chip": {
+        "prefix": "primereact-chip",
+        "body": [
+            "<Chip label=\"$1\" icon=\"$2\" removable={$3} />"
+        ],
+        "description": "Cria um componente Chip do PrimeReact"
+    },
+    "PrimeReact Menubar": {
+        "prefix": "primereact-menubar",
+        "body": [
+            "<Menubar model={$1} />"
+        ],
+        "description": "Cria um componente Menubar do PrimeReact"
+    },
+    "PrimeReact DataScroller": {
+        "prefix": "primereact-datascroller",
+        "body": [
+            "<DataScroller value={$1} rows={$2} inline={$3} />"
+        ],
+        "description": "Cria um componente DataScroller do PrimeReact"
+    },
+    "PrimeReact PickListTransfer": {
+        "prefix": "primereact-picklisttransfer",
+        "body": [
+            "<PickListTransfer source={$1} target={$2} />"
+        ],
+        "description": "Cria um componente PickListTransfer do PrimeReact"
+    },
+    "PrimeReact SlideShow": {
+        "prefix": "primereact-slideshow",
+        "body": [
+            "<SlideShow images={$1} />"
+        ],
+        "description": "Cria um componente SlideShow do PrimeReact"
+    },
+    "PrimeReact TerminalService": {
+        "prefix": "primereact-terminalservice",
+        "body": [
+            "<TerminalService/>"
+        ],
+        "description": "Cria um componente TerminalService do PrimeReact"
+    },
+    "PrimeReact FormLayout": {
+        "prefix": "primereact-formlayout",
+        "body": [
+            "<FormLayout/>"
+        ],
+        "description": "Cria um componente FormLayout do PrimeReact"
+    },
+    "PrimeReact ScrollBar": {
+        "prefix": "primereact-scrollbar",
+        "body": [
+            "<ScrollBar></ScrollBar>"
+        ],
+        "description": "Cria um componente ScrollBar do PrimeReact"
+    },
+    "PrimeReact TableScroller": {
+        "prefix": "primereact-tablescroller",
+        "body": [
+            "<TableScroller></TableScroller>"
+        ],
+        "description": "Cria um componente TableScroller do PrimeReact"
+    },
+    "PrimeReact TreeNode": {
+        "prefix": "primereact-treenode",
+        "body": [
+            "<TreeNode label=\"$1\" icon=\"$2\" children={$3} />"
+        ],
+        "description": "Cria um componente TreeNode do PrimeReact"
+    },
+    "PrimeReact CarouselItem": {
+        "prefix": "primereact-carouselitem",
+        "body": [
+            "<CarouselItem template={$1} />"
+        ],
+        "description": "Cria um componente CarouselItem do PrimeReact"
+    },
+    "PrimeReact SplitButtonItem": {
+        "prefix": "primereact-splitbuttonitem",
+        "body": [
+            "<SplitButtonItem label=\"$1\" icon=\"$2\" command={$3} />"
+        ],
+        "description": "Cria um componente SplitButtonItem do PrimeReact"
+    },
+    "PrimeReact AccordionTab": {
+        "prefix": "primereact-accordiontab",
+        "body": [
+            "<AccordionTab header=\"$1\">$2</AccordionTab>"
+        ],
+        "description": "Cria um componente AccordionTab do PrimeReact"
+    },
+    "PrimeReact PanelHeader": {
+        "prefix": "primereact-panelheader",
+        "body": [
+            "<PanelHeader title=\"$1\" />"
+        ],
+        "description": "Cria um componente PanelHeader do PrimeReact"
+    },
+    "PrimeReact AutoCompletePanel": {
+        "prefix": "primereact-autocompletepanel",
+        "body": [
+            "<AutoCompletePanel suggestions={$1} />"
+        ],
+        "description": "Cria um componente AutoCompletePanel do PrimeReact"
+    },
+    "PrimeReact VirtualScrollerItem": {
+        "prefix": "primereact-virtualscrolleritem",
+        "body": [
+            "<VirtualScrollerItem template={$1} />"
+        ],
+        "description": "Cria um componente VirtualScrollerItem do PrimeReact"
+    },
+    "PrimeReact BreadcrumbItem": {
+        "prefix": "primereact-breadcrumbitem",
+        "body": [
+            "<BreadcrumbItem label=\"$1\" url=\"$2\" />"
+        ],
+        "description": "Cria um componente BreadcrumbItem do PrimeReact"
+    },
+    "PrimeReact ScrollPanelItem": {
+        "prefix": "primereact-scrollpanelitem",
+        "body": [
+            "<ScrollPanelItem>$1</ScrollPanelItem>"
+        ],
+        "description": "Cria um componente ScrollPanelItem do PrimeReact"
+    },
+    "PrimeReact DockModel": {
+        "prefix": "primereact-dockmodel",
+        "body": [
+            "<DockModel items={$1} />"
+        ],
+        "description": "Cria um componente DockModel do PrimeReact"
+    },
+    "PrimeReact PickListItem": {
+        "prefix": "primereact-picklistitem",
+        "body": [
+            "<PickListItem label=\"$1\" />"
+        ],
+        "description": "Cria um componente PickListItem do PrimeReact"
+    },
+    "PrimeReact TabPanel": {
+        "prefix": "primereact-tabpanel",
+        "body": [
+            "<TabPanel header=\"$1\">$2</TabPanel>"
+        ],
+        "description": "Cria um componente TabPanel do PrimeReact"
+    },
+    "PrimeReact GMapOverlay": {
+        "prefix": "primereact-gmapoverlay",
+        "body": [
+            "<GMapOverlay overlay={$1} />"
+        ],
+        "description": "Cria um componente GMapOverlay do PrimeReact"
+    },
+    "PrimeReact MenuItem": {
+        "prefix": "primereact-menuitem",
+        "body": [
+            "<MenuItem label=\"$1\" icon=\"$2\" command={$3} />"
+        ],
+        "description": "Cria um componente MenuItem do PrimeReact"
+    },
+    "PrimeReact SliderHandle": {
+        "prefix": "primereact-sliderhandle",
+        "body": [
+            "<SliderHandle value={$1} />"
+        ],
+        "description": "Cria um componente SliderHandle do PrimeReact"
+    },
+    "PrimeReact StepsItem": {
+        "prefix": "primereact-stepsitem",
+        "body": [
+            "<StepsItem label=\"$1\" />"
+        ],
+        "description": "Cria um componente StepsItem do PrimeReact"
+    },
+    "PrimeReact TieredMenuItem": {
+        "prefix": "primereact-tieredmenuitem",
+        "body": [
+            "<TieredMenuItem label=\"$1\" icon=\"$2\" />"
+        ],
+        "description": "Cria um componente TieredMenuItem do PrimeReact"
+    },
+    "PrimeReact ContextMenuItem": {
+        "prefix": "primereact-contextmenuitem",
+        "body": [
+            "<ContextMenuItem label=\"$1\" command={$2} />"
+        ],
+        "description": "Cria um componente ContextMenuItem do PrimeReact"
+    },
+    "PrimeReact TreeDragDrop": {
+        "prefix": "primereact-treedragdrop",
+        "body": [
+            "<TreeDragDrop nodes={$1} dragdropScope=\"$2\" />"
+        ],
+        "description": "Cria um componente TreeDragDrop do PrimeReact"
+    },
+    "PrimeReact TimelineEvent": {
+        "prefix": "primereact-timelineevent",
+        "body": [
+            "<TimelineEvent title=\"$1\" />"
+        ],
+        "description": "Cria um componente TimelineEvent do PrimeReact"
+    },
+    "PrimeReact ChartSeries": {
+        "prefix": "primereact-chartseries",
+        "body": [
+            "<ChartSeries data={$1} />"
+        ],
+        "description": "Cria um componente ChartSeries do PrimeReact"
+    }
+}
